@@ -115,7 +115,7 @@ def refresh_func_rot_cw(time:float):
     degrees = 30
     rot_time = 2
     rotate(t,degrees,rot_time)
-    if t >=8:
+    if t >=2:
         for i in range(movers.size):
             movers[i].confirm_obj_rotate(30)
         check_new()
